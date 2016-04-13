@@ -1,2 +1,7 @@
 language: c
+addons:
+  apt:
+    packages:
+    - libusb-1.0.0-dev
+    - libncurses5-dev
 script: sh make.sh
