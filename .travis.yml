@@ -1,2 +1,2 @@
 language: c
--scripe: -./make.sh
+script: ./make.sh
